@@ -21,7 +21,7 @@
 title: "Abdullah Khaled's Engineering Portfolio"
 email: abdullahkhaled0224@gmail.com
 description: "Projects from school, robotics, internships, and personal work"
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://squirrr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  squirrr
 linkedin_username: abdullah-khaled
