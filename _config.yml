@@ -21,14 +21,72 @@
 title: "Abdullah Khaled's Engineering Portfolio"
 email: abdullahkhaled0224@gmail.com
 description: "Projects from school, robotics, internships, and personal work"
-baseurl: "squirrr.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://squirrr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  squirrr
+linkedin_username: abdullah-khaled
+youtube_username: abdullahkhaled
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Abdullah Khaled"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Sophomore at Wakeland High School | Software Lead at Itkan Robotics | Engineering Enthusiast"
+  location: "Frisco, TX"
+  email: "abdullahkhaled0224@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:abdullahkhaled0224@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/squirrr"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/abdullah-khaled"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@abdullahkhaled"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:abdullahkhaled0224@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/squirrr"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/abdullah-khaled"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@abdullahkhaled"
+
+# Site Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "PLTW Engineering"
+    url: "/pltw-engineering/"
+    children:
+      - title: "Intro to Engineering Design"
+        url: "/pltw-engineering/intro-to-engineering-design/"
+      - title: "Principles of Engineering"
+        url: "/pltw-engineering/principles-of-engineering/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
