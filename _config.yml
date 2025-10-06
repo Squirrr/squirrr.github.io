@@ -46,12 +46,11 @@ kramdown:
   syntax_highlighter: rouge    
 
 
-minima:
-  nav_pages:
-   - index.md
-   - about.md
-   - first/first.md
-   - pltw_engineering/pltw.md
+header_pages:
+  - index.md
+  - about.md
+  - first/first.md
+  - pltw_engineering/pltw.md
 
 
 # Exclude from processing.
