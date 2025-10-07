@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "PLTW"
+    url: /pltw-engineering/
+  - title: "FIRST"
+    url: /first/
