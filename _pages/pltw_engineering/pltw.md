@@ -15,14 +15,14 @@ feature_row_projects:
   - image_path: /assets/images/PLTW/homepage/elevatorIso.png
     title: "Machine Control Project"
     excerpt: "I worked with my team to CAD and program a full elevator prototype using feedback control systems."
-    url: "#test-link"
+    url: "/pltw-engineering/machine-control/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
   - image_path: /assets/images/PLTW/homepage/compoundMachineIso.png
     title: "Compound Machine"
     excerpt: "I worked with my team to CAD a design using Onshape to elegantly meet the required mechanical advantage constraints."
-    url: "#test-link"
+    url: "/pltw-engineering/compound-machine/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
@@ -30,7 +30,7 @@ feature_row_projects:
     alt: "image of motor car"
     title: "Motor Car"
     excerpt: "I worked with a partner to create a unique three-wheel solution to create a reliable motor car, while looking stylish at the same time!"
-    url: "#test-link"
+    url: "/pltw-engineering/motor-car/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     
@@ -38,7 +38,7 @@ feature_row_projects:
     alt: "automata"
     title: "Automata"
     excerpt: "Using Fusion360, I designed an animated automata and customized it based on a Kobe Bryant theme."
-    url: "#test-link"
+    url: "/pltw-engineering/automata/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
