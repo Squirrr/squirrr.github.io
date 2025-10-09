@@ -2,7 +2,7 @@
 {% assign video_provider = include.provider %}
 {% assign video_width = include.width | default: "300px" %}
 {% assign video_height = include.height | default: "200px" %}
-{% assign video_float = include.float | default: "left" %}
+{% assign video_float = include.float | default: left %}
 {% assign video_margin = include.margin | default: "10px" %}
 
 {% capture video_src %}
@@ -20,8 +20,8 @@
 {% assign video_src = video_src | strip %}
 
 {% unless video_src == "" %}
-  <div class="responsive-video-container"
-       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-float: {{ video_float }}; --rv-margin: {{ video_margin }};">
+  <div class="responsive-video-container-custom"
+       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-float: {{ video_float }}; --rv-margin: {{ video_margin }}; height:20px">
     <iframe src="{{ video_src }}" allowfullscreen loading="lazy"></iframe>
   </div>
 {% endunless %}
