@@ -17,5 +17,5 @@ While I joined my First Robotics Competition (FRC) team late in the season, I wa
 <br>
 During this offseason time after the season, I programmed one of the competition robots from scratch with little help from mentors. I learned motion profiling, status LED control, command-based programming, AprilTag and vision alignment, and pathing algorithms to contol the robot autonomously during the match.
 <br><br><br><br><br><br>
-[GitHub Code](#https://github.com/Squirrr/KHALED-9752-SWERVE){: .btn .btn--info .btn--large}
-[Custom Robot CAD (Onshape)](#https://cad.onshape.com/documents/5d8dc2398a955c4d778f9374/w/09336026c2b18413fc200d5a/e/4872d2ce58cb3a8e4195452c?renderMode=0&uiState=68e8427af6b819f6d27a6bf0){: .btn .btn--success .btn--large}
+[GitHub Code](https://github.com/Squirrr/KHALED-9752-SWERVE){: .btn .btn--purple .btn--large}
+[Custom Robot CAD (Onshape)](https://cad.onshape.com/documents/5d8dc2398a955c4d778f9374/w/09336026c2b18413fc200d5a/e/4872d2ce58cb3a8e4195452c?renderMode=0&uiState=68e8427af6b819f6d27a6bf0){: .btn .btn--success .btn--large}

@@ -18,3 +18,7 @@ permalink: /resume/
 </embed>
 </object>
 </div>
+---
+<i>Last updated May 1st, 2025</i>
+{: .text-center}
+---

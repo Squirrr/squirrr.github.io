@@ -14,21 +14,21 @@ permalink: /first/
 feature_row_projects:
   - image_path: /assets/images/first/9128_2024.jpg
     title: "CRESCENDO - 2024 FRC"
-    excerpt: "9752"
+    excerpt: "The 2024 FRC Season, during which I competed with team 9752 ITKAN Robotics Jr."
     url: "/first/crescendo/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
   - image_path: /assets/images/first/21330_2425.png
     title: "INTO THE DEEP - 2024-2025 FTC"
-    excerpt: "21330"
+    excerpt: "The 2024-25 FTC Season, during which I competed with team 21330 ITKAN of Tomorrow."
     url: "/first/into-the-deep/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
   - image_path: /assets/images/first/9128_2025.jpg
     title: "REEFSCAPE - 2025 FRC"
-    excerpt: "9128"
+    excerpt: "The 2025 FRC Season, during which I competed with team 9128 ITKAN Robotics."
     url: "/first/reefscape/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
