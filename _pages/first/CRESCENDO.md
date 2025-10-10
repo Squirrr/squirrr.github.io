@@ -8,7 +8,7 @@ defaults:
       layout: single
       author_profile: true
 title: 2024 FRC
-permalink: /first/crescendo
+permalink: /first/crescendo/
 ---
 {% include video id="dHAEvzB9j1I" provider="youtube" width="640px" height="360px" float="right" margin="10px"%}
 While I joined my First Robotics Competition (FRC) team late in the season, I was still able to gain valuable experience in programming and designing a robot for the 2024 FRC Game, CRESCENDO. In this game, robots were meant to shoot rings into a goal, which required a combination of precision and accuracy in order to shoot from distances as far as 13.5 feet away!

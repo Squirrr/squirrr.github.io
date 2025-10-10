@@ -8,7 +8,7 @@ defaults:
       layout: single
       author_profile: true
 title: 2024-2025 FTC
-permalink: /first/into-the-deep
+permalink: /first/into-the-deep/
 ---
 
 {% include video id="72TyK_xXU0Q" provider="youtube" width="640px" height="360px" float="left" margin="10px"%}
