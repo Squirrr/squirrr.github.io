@@ -22,7 +22,6 @@ permalink: /
 {: .text-center}
 ---
 <h2>Background</h2>
-<br>
 I am currently a junior at Wakeland High School in Frisco, TX, and have been working with robots since I was in kindergarten. While I don't play with LEGOs as much as I used to (though I still find myself drawn back to them), I now indulge in big LEGOs—actual robots made using real-world manufacturing and assembly techniques.
 Through my background in engineering both through academic courses and extracurricular activites, I have developed my skills in design, software, and electronics to become a (hopefully) well-rounded student. For more information about me, see my [about me](/about/) or my [resume](/resume/)!
 
