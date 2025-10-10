@@ -19,6 +19,6 @@ permalink: /resume/
 </object>
 </div>
 ---
-<i>Last updated May 1st, 2025</i>
+<i>Last updated October 10, 2025</i>
 {: .text-center}
 ---
