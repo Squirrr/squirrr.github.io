@@ -2,11 +2,13 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
-    url: /about/
+  - title: "Projects"
+    url: /projects/
   - title: "PLTW"
     url: /pltw-engineering/
   - title: "FIRST"
     url: /first/
   - title: "Resume"
     url: /resume/
+  - title: "About"
+    url: /about/
