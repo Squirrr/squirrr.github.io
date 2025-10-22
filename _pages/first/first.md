@@ -7,7 +7,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-title: FIRST
+title: FIRST®
 permalink: /first/
 
 #Feature Row of Engineering Projects
@@ -34,6 +34,6 @@ feature_row_projects:
     btn_class: "btn--inverse"
 ---
 
-FIRST(R) (For Inspiration and Recognition of Science and Technology) is a pre-collegiate robotics program that seeks to inspire and encourage students to pursue a career in STEM through robotics. I have participated in FIRST for the duration of my high school career, and below are some of the robots I have worked on during this time:
+FIRST® (For Inspiration and Recognition of Science and Technology) is a pre-collegiate robotics program that seeks to inspire and encourage students to pursue a career in STEM through robotics. I have participated in FIRST® for the duration of my high school career, and below are some of the robots I have worked on during this time:
 
 {% include feature_row id="feature_row_projects"%}
