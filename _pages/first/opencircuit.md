@@ -11,16 +11,16 @@ title: OpenCircuit
 permalink: /first/open-circuit/
 
 part-layouts:
-  - url: /assets\images\first\opencircuit\Base_Kit_Parts.png
-    image_path: /assets\images\first\opencircuit\Base_Kit_Parts.png
+  - url: /assets/images/first/opencircuit/Base_Kit_Parts.png
+    image_path: /assets/images/first/opencircuit/Base_Kit_Parts.png
     alt: "Base Kit Parts"
     title: "Base Kit Parts"
-  - url: /assets\images\first\opencircuit\Wheel_Stabilizer_Parts.png
-    image_path: /assets\images\first\opencircuit\Wheel_Stabilizer_Parts.png
+  - url: /assets/images/first/opencircuit/Wheel_Stabilizer_Parts.png
+    image_path: /assets/images/first/opencircuit/Wheel_Stabilizer_Parts.png
     alt: "Wheel(s) Stabilizer parts"
     title: "Wheel(s) Stabilizer parts. Left side is castor wheel, right side is two wheels"
-  - url: /assets\images\first\opencircuit\Essential_Extension_Parts.png
-    image_path: /assets\images\first\opencircuit\Essential_Extension_Parts.png
+  - url: /assets/images/first/opencircuit/Essential_Extension_Parts.png
+    image_path: /assets/images/first/opencircuit/Essential_Extension_Parts.png
     alt: "SPIKE™ Essential Extension Parts"
     title: "SPIKE™ Essential Extension Parts"
 ---
