@@ -1,0 +1,307 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Abdullah Khaled
+  headline:
+  location: Frisco, TX
+  email: abdullahkhaled0224@gmail.com
+  photo:
+  phone: +1 469-347-2884
+  website: https://squirrr.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: Abdullah-A-Khaled
+    - network: GitHub
+      username: Squirrr
+  custom_connections:
+  sections:
+    education:
+      - institution: Wakeland High School
+        area: ' '
+        degree: High School Diploma
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - 'Unweighted GPA: 4.0'
+          - Rigorous course load including 12 APs before senior year
+      - institution: Frisco ISD Career and Technical Education Center
+        area: ''
+        degree: Project Lead The Way
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
+          - '[PLTW Portfolio](https://squirrr.github.io/pltw-engineering/)'
+    experience:
+      - company: ITKAN Robotics (FRC 9128)
+        position: Programming Lead, Chief Technical Advisor
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Led team to playoffs at Texas State Championship (89 teams) using AprilTag pose estimation, and swerve drive odometry achieving sub 2-inch precision
+          - "Trained 4 students in Java robotics programming; created Java training website: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc/frc-intro)"
+          - Developed custom publish-subscribe motor logging system for real-time diagnostics analyses
+          - Implemented finite state machine with Dijkstra's Algorithm
+          - Used FRC-specific Java mechanism simulation for telescoping arm optimization
+      - company: Wolverine Robotics (FTC 33791)
+        position: Founder, President, Youth Mentor
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year, securing funding and registration in under 2 weeks
+          - Teach CAD software (Onshape) and Java programming through monthly technical workshops; manage club operations including mission development, curriculum design, and budget management
+      - company: ITKAN Robotics of ICF (FTC 26357)
+        position: Programming Mentor
+        date:
+        start_date: 2024-09
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Trained 5+ students in Java, command-based programming, motor control, PID tuning, servo control, sensor integration, and dead-reckoning wheel odometry
+          - "Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)"
+          - Organized fundraisers raising $5000+ and created GitHub organization, inventory system (Google Sheets, Sortly), and finite state machine architecture improving TeleOp efficiency and auto reliability by 10%
+          - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through hands-on learning and Discord support
+      - company: Gideon Math and Reading Center
+        position: Math and Reading Instructor
+        date:
+        start_date: 2024-09
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
+          - Analyze student performance data to identify learning gaps and develop personalized plans
+          - Utilize ChatGPT for reading material level assessment and adjustment
+    projects:
+      - name: "Senior Fall Monitor Device"
+        date:
+        start_date: 2024-01
+        end_date: present
+        location: Samsung Solve for Tomorrow
+        highlights:
+          - Developed lightweight TensorFlow Lite ML model for real-time motion tracking and fall detection on mobile devices with buzzer alert system
+          - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+      - name: Oral Disease Detector
+        date:
+        start_date: 2024-06
+        end_date: present
+        location: The Conrad Challenge
+        highlights:
+          - Designed HIPAA-compliant federated learning architecture using TensorFlow Federated for distributed model training without exposing patient data
+          - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+    Extracurricular Activities:
+      - company: Math National Honor Society
+        position: Vice President
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Wakeland High School, Frisco, TX
+        highlights:
+          - Led organization as Vice President (2024-25) and Treasurer (2023-24), managing budget for 100+ members
+          - Designed Math Lab Program website using Google Sites and coordinated peer tutoring, attaining over 20% member participation
+          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers
+      - company: Muslim Student Association
+        position: Secretary, Co-Founder
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Wakeland High School, Frisco, TX
+        highlights:
+          - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
+          - Negotiated with school administration to establish dedicated prayer room, coordinating facility setup and policies
+      - company: Ma'ruf Project Taleem Tutoring
+        position: Lead Instructor
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Dallas, TX
+        highlights:
+          - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
+          - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
+    selected_honors:
+      - bullet: (2025) AP Scholar with Distinction 
+      - bullet: '(2025) FRC 9128: Event Winner (Victoria, 25 teams); Autonomous Award (Plano, 31 teams); Creativity Award (Amarillo, 36 teams)'
+      - bullet: "(2025-26) FTC #26357: Finalist Alliance Captain @ FIRST McKinney Qualifier (19 teams); Dean's List Semifinalist"
+    skills:
+      - label: CAD/CAM
+        details: Fusion 360, Onshape
+      - label: Software
+        details: Python, Java, HTML, CSS, Jekyll, MS Office
+      - label: Electrical
+        details: NI Multisim, Soldering
+      - label: Programming & Technologies
+        details: TensorFlow Lite, Federated Learning, solvePnP AprilTag vision, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory
+
+design:
+  theme: engineeringclassic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: false
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 0, 0)
+  #   headline: rgb(0, 0, 0)
+  #   connections: rgb(0, 0, 0)
+  #   section_titles: rgb(0, 0, 0)
+  #   links: rgb(0, 0, 0)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: XCharter
+  #     name: XCharter
+  #     headline: XCharter
+  #     connections: XCharter
+  #     section_titles: XCharter
+  #   font_size:
+  #     body: 10pt
+  #     name: 25pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.2em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: true
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: false
+  #     display_urls_instead_of_usernames: true
+  #     separator: '|'
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_full_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 0.42cm
+  #   space_between_text_based_entries: 0.15cm
+  #   show_time_spans_in: []
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: false
+  #   summary:
+  #     space_above: 0.08cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: ●
+  #     nested_bullet: ●
+  #     space_left: 0cm
+  #     space_above: 0.08cm
+  #     space_between_items: 0.08cm
+  #     space_between_bullet_and_text: 0.3em
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, DEGREE AREA -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME** -- **LOCATION**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **POSITION**, COMPANY -- LOCATION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2025-12-24'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
