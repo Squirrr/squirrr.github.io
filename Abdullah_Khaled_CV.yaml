@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# python -m rendercv render --watch "Abdullah_Khaled_CV.yaml"
 cv:
   name: Abdullah Khaled
   headline:
@@ -12,6 +13,8 @@ cv:
       username: Abdullah-A-Khaled
     - network: GitHub
       username: Squirrr
+    - network: YouTube
+      username: AKha1ed
   custom_connections:
   sections:
     education:
@@ -34,7 +37,7 @@ cv:
         location: Frisco, TX
         highlights:
           - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
-          - '[PLTW Portfolio](https://squirrr.github.io/pltw-engineering/)'
+          - '[PLTW Engineering EPortfolio](https://squirrr.github.io/pltw-engineering/)'
     experience:
       - company: ITKAN Robotics (FRC 9128)
         position: Programming Lead, Chief Technical Advisor
@@ -47,7 +50,7 @@ cv:
           - "Trained 4 students in Java robotics programming; created Java training website: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc/frc-intro)"
           - Developed custom publish-subscribe motor logging system for real-time diagnostics analyses
           - Implemented finite state machine with Dijkstra's Algorithm
-          - Used FRC-specific Java mechanism simulation for telescoping arm optimization
+          - Used FRC-specific Java mechanism simulation towards telescoping arm optimization
       - company: Wolverine Robotics (FTC 33791)
         position: Founder, President, Youth Mentor
         date:
@@ -56,8 +59,9 @@ cv:
         location: Frisco, TX
         highlights:
           - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year, securing funding and registration in under 2 weeks
-          - Teach CAD software (Onshape) and Java programming through monthly technical workshops; manage club operations including mission development, curriculum design, and budget management
-      - company: ITKAN Robotics of ICF (FTC 26357)
+          - Teach CAD software (Onshape) and Java programming through monthly technical workshops
+          - Manage club operations including mission development, curriculum design, and budget management
+      - company: ITKAN Robotics of ICF (FTC 26357, 28931)
         position: Programming Mentor
         date:
         start_date: 2024-09
@@ -66,8 +70,7 @@ cv:
         highlights:
           - Trained 5+ students in Java, command-based programming, motor control, PID tuning, servo control, sensor integration, and dead-reckoning wheel odometry
           - "Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)"
-          - Organized fundraisers raising $5000+ and created GitHub organization, inventory system (Google Sheets, Sortly), and finite state machine architecture improving TeleOp efficiency and auto reliability by 10%
-          - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through hands-on learning and Discord support
+          - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://squirrr.github.io/first/oarobotics/) curriculum
       - company: Gideon Math and Reading Center
         position: Math and Reading Instructor
         date:
@@ -115,8 +118,8 @@ cv:
         highlights:
           - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
           - Negotiated with school administration to establish dedicated prayer room, coordinating facility setup and policies
-      - company: Ma'ruf Project Taleem Tutoring
-        position: Lead Instructor
+      - company: Ma'ruf Project Taleem
+        position: Lead Math and English Instructor
         date:
         start_date: 2023-09
         end_date: present
@@ -125,9 +128,10 @@ cv:
           - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
           - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
     selected_honors:
-      - bullet: (2025) AP Scholar with Distinction 
-      - bullet: '(2025) FRC 9128: Event Winner (Victoria, 25 teams); Autonomous Award (Plano, 31 teams); Creativity Award (Amarillo, 36 teams)'
-      - bullet: "(2025-26) FTC #26357: Finalist Alliance Captain @ FIRST McKinney Qualifier (19 teams); Dean's List Semifinalist"
+      - bullet: (2025) Collegeboard AP Scholar with Distinction; NRP School Recognition Award
+      - bullet: "(2025) FRC 9128: Event Winner (FiT Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)"
+      - bullet: "(2025-26) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)"
+      - bullet: "(2025-26) FTC 28931: Dean's List Semifinalist (FiT-North D-League Tournament, 19 teams)"
     skills:
       - label: CAD/CAM
         details: Fusion 360, Onshape

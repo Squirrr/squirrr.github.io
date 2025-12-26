@@ -32,6 +32,13 @@ feature_row_projects:
     url: "/first/reefscape/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+
+  - image_path: /assets/images/first/oarobotics/Bots_Top.png
+    title: "OARobotics Curriculum"
+    excerpt: "Robotics curriculum for students with limited English proficiency"
+    url: "/first/oarobotics/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 FIRST® (For Inspiration and Recognition of Science and Technology) is a pre-collegiate robotics program that seeks to inspire and encourage students to pursue a career in STEM through robotics. I have participated in FIRST® for the duration of my high school career, and below are some of the robots I have worked on during this time:

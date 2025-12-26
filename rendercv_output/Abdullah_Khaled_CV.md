@@ -6,6 +6,7 @@
 - Website: [squirrr.github.io](https://squirrr.github.io/)
 - LinkedIn: [Abdullah-A-Khaled](https://linkedin.com/in/Abdullah-A-Khaled)
 - GitHub: [Squirrr](https://github.com/Squirrr)
+- YouTube: [AKha1ed](https://youtube.com/@AKha1ed)
 
 
 # Education
@@ -21,7 +22,7 @@
 
 - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
 
-- [PLTW Portfolio](https://squirrr.github.io/pltw-engineering/)
+- [PLTW Engineering EPortfolio](https://squirrr.github.io/pltw-engineering/)
 
 
 
@@ -38,7 +39,7 @@ Sept 2023 – present
 
 - Implemented finite state machine with Dijkstra's Algorithm
 
-- Used FRC-specific Java mechanism simulation for telescoping arm optimization
+- Used FRC-specific Java mechanism simulation towards telescoping arm optimization
 
 
 
@@ -48,11 +49,13 @@ Aug 2024 – present
 
 - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year, securing funding and registration in under 2 weeks
 
-- Teach CAD software (Onshape) and Java programming through monthly technical workshops; manage club operations including mission development, curriculum design, and budget management
+- Teach CAD software (Onshape) and Java programming through monthly technical workshops
+
+- Manage club operations including mission development, curriculum design, and budget management
 
 
 
-## **Programming Mentor**, ITKAN Robotics of ICF (FTC 26357) -- Frisco, TX
+## **Programming Mentor**, ITKAN Robotics of ICF (FTC 26357, 28931) -- Frisco, TX
 
 Sept 2024 – present
 
@@ -60,9 +63,7 @@ Sept 2024 – present
 
 - Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)
 
-- Organized fundraisers raising $5000+ and created GitHub organization, inventory system (Google Sheets, Sortly), and finite state machine architecture improving TeleOp efficiency and auto reliability by 10%
-
-- Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through hands-on learning and Discord support
+- Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://squirrr.github.io/first/oarobotics/) curriculum
 
 
 
@@ -122,7 +123,7 @@ Sept 2023 – present
 
 
 
-## **Lead Instructor**, Ma'ruf Project Taleem Tutoring -- Dallas, TX
+## **Lead Math and English Instructor**, Ma'ruf Project Taleem -- Dallas, TX
 
 Sept 2023 – present
 
@@ -133,11 +134,13 @@ Sept 2023 – present
 
 
 # Selected Honors
-- (2025) AP Scholar with Distinction
+- (2025) Collegeboard AP Scholar with Distinction; NRP School Recognition Award
 
-- (2025) FRC 9128: Event Winner (Victoria, 25 teams); Autonomous Award (Plano, 31 teams); Creativity Award (Amarillo, 36 teams)
+- (2025) FRC 9128: Event Winner (FiT Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)
 
-- (2025-26) FTC #26357: Finalist Alliance Captain @ FIRST McKinney Qualifier (19 teams); Dean's List Semifinalist
+- (2025-26) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
+
+- (2025-26) FTC 28931: Dean's List Semifinalist (FiT-North D-League Tournament, 19 teams)
 
 # Skills
 **CAD/CAM:** Fusion 360, Onshape
