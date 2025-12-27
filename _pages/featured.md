@@ -7,8 +7,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-title: Projects
-permalink: /projects/
+title: Featured Projects
+permalink: /featured/
 
 feature_row_projects:
   - image_path: /assets/images/first/9128_2025.jpg

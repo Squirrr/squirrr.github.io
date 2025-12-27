@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Projects"
-    url: /projects/
+  - title: "Featured"
+    url: /featured/
   - title: "PLTW"
     url: /pltw-engineering/
   - title: "FIRST®"

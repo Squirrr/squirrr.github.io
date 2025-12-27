@@ -47,7 +47,7 @@ feature_row_projects:
 ---
 <h2>Quick Links</h2>
 {: .text-left}
-[Browse Projects](/projects/){: .btn .btn--warning .btn--x-large}
+[Browse Projects](/featured/){: .btn .btn--warning .btn--x-large}
 [Download Resume](/resume/){: .btn .btn--primary .btn--x-large}
 [GitHub](https://github.com/Squirrr){: .btn .btn--purple .btn--x-large}
 {: .text-center}
