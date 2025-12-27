@@ -11,7 +11,7 @@ title: Machine Control Project
 permalink: /pltw-engineering/machine-control/
 ---
 
-{% include video id="IykJOCmuGt0" provider="youtube" width="360px" height="640px" float="left" margin="10px"%}
+{% include video id="IykJOCmuGt0" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}
 
 <b>Objective</b>: We had to utilize our knowledge of VEX V5 components and programming to design and code a working machine based on a set of criteria and constraints given to us.
 

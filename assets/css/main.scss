@@ -18,8 +18,8 @@ search: false
     position: relative;
     display: block;
     width: var(--rv-width, 240px);
-    // aspect-ratio: calc(var(--rv-width, 240px) / var(--rv-height, 360px));
-    height: var(--rv-height, 360px) !important;
+    // aspect-ratio: calc(var(--rv-width, 240px) / var(--rv-height, 27vw));
+    height: var(--rv-height, 27vw) !important;
     max-width: 100%;
     float: var(--rv-float, left);
     margin: var(--rv-margin, 10px);

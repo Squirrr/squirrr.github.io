@@ -21,7 +21,7 @@
 
 {% unless video_src == "" %}
   <div class="responsive-video-container-custom"
-       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-float: {{ video_float }}; --rv-margin: {{ video_margin }}; height:20px">
+       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-margin: {{ video_margin }}; height:20px">
     <iframe src="{{ video_src }}" allowfullscreen loading="lazy"></iframe>
   </div>
 {% endunless %}

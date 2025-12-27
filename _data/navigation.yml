@@ -8,6 +8,8 @@ main:
     url: /pltw-engineering/
   - title: "FIRST®"
     url: /first/
+  - title: "Personal"
+    url: /personal/
   - title: "Resume"
     url: /resume/
   - title: "About"

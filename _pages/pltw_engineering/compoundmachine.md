@@ -11,7 +11,7 @@ title: Compound Machine
 permalink: /pltw-engineering/compound-machine/
 ---
 
-{% include video id="rm9d0f760_0" provider="youtube" width="360px" height="640px" float="left" margin="10px"%}
+{% include video id="rm9d0f760_0" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}
 
 <b>Objective</b>: Our team's project was to brainstorm, design, construct, and test a compound machine that moves a 1000-gram weight 5 inches vertically and utilizes at least five simple machines.
 
