@@ -8,7 +8,7 @@ defaults:
       layout: single
       author_profile: true
 title: OARobotics
-permalink: /first/oarobotics/
+permalink: /personal/oarobotics/
 
 part-layouts:
   - url: /assets/images/first/oarobotics/Base_Kit_Parts.png
