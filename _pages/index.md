@@ -49,7 +49,7 @@ feature_row_projects:
 {: .text-left}
 [Browse Projects](/featured/){: .btn .btn--warning .btn--x-large}
 [Download Resume](/resume/){: .btn .btn--primary .btn--x-large}
-[GitHub](https://github.com/Squirrr){: .btn .btn--purple .btn--x-large}
+[GitHub](https://github.com/akhaled247){: .btn .btn--purple .btn--x-large}
 {: .text-center}
 ---
 <h2>Background</h2>

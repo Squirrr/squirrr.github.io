@@ -7,14 +7,14 @@ cv:
   email: abdullahkhaled0224@gmail.com
   photo:
   phone: +1 469-347-2884
-  website: https://squirrr.github.io/
+  website: https://akhaled247.github.io/
   social_networks:
     - network: LinkedIn
-      username: Abdullah-A-Khaled
+      username: akhaled247
     - network: GitHub
-      username: Squirrr
+      username: akhaled247
     - network: YouTube
-      username: AKha1ed
+      username: akhaled.247
   custom_connections:
   sections:
     education:
@@ -37,7 +37,7 @@ cv:
         location: Frisco, TX
         highlights:
           - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
-          - '[PLTW Engineering EPortfolio](https://squirrr.github.io/pltw-engineering/)'
+          - '[PLTW Engineering EPortfolio](https://akhaled247.github.io/pltw-engineering/)'
     experience:
       - company: ITKAN Robotics (FRC 9128)
         position: Programming Lead, Chief Technical Advisor
@@ -70,7 +70,7 @@ cv:
         highlights:
           - Trained 5+ students in Java, command-based programming, motor control, PID tuning, servo control, sensor integration, and dead-reckoning wheel odometry
           - "Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)"
-          - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://squirrr.github.io/first/oarobotics/) curriculum
+          - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://akhaled247.github.io/first/oarobotics/) curriculum
       - company: Gideon Math and Reading Center
         position: Math and Reading Instructor
         date:
@@ -153,14 +153,12 @@ design:
   #   show_footer: false
   #   show_top_note: true
   colors:
-    body: rgb(0, 0, 0),
-    name: rgb(0, 79, 144),
-    headline: rgb(0, 79, 144),
-    connections: rgb(0, 79, 144),
-    section-titles: rgb(0, 79, 144),
-    links: rgb(0, 79, 144),
-    footer: rgb(128, 128, 128),
-    top-note: rgb(128, 128, 128)
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
   # typography:
   #   line_spacing: 0.6em
   #   alignment: justified

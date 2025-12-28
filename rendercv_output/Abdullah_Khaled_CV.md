@@ -3,10 +3,10 @@
 - Phone: +1 469 347 2884
 - Email: [abdullahkhaled0224@gmail.com](mailto:abdullahkhaled0224@gmail.com)
 - Location: Frisco, TX
-- Website: [squirrr.github.io](https://squirrr.github.io/)
-- LinkedIn: [Abdullah-A-Khaled](https://linkedin.com/in/Abdullah-A-Khaled)
-- GitHub: [Squirrr](https://github.com/Squirrr)
-- YouTube: [AKha1ed](https://youtube.com/@AKha1ed)
+- Website: [akhaled247.github.io](https://akhaled247.github.io/)
+- LinkedIn: [akhaled247](https://linkedin.com/in/akhaled247)
+- GitHub: [akhaled247](https://github.com/akhaled247)
+- YouTube: [akhaled.247](https://youtube.com/@akhaled.247)
 
 
 # Education
@@ -22,7 +22,7 @@
 
 - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
 
-- [PLTW Engineering EPortfolio](https://squirrr.github.io/pltw-engineering/)
+- [PLTW Engineering EPortfolio](https://akhaled247.github.io/pltw-engineering/)
 
 
 
@@ -63,7 +63,7 @@ Sept 2024 – present
 
 - Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)
 
-- Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://squirrr.github.io/first/oarobotics/) curriculum
+- Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://akhaled247.github.io/first/oarobotics/) curriculum
 
 
 

@@ -89,10 +89,10 @@
   [#connection-with-icon("location-dot")[Frisco, TX]],
   [#link("mailto:abdullahkhaled0224@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[abdullahkhaled0224\@gmail.com]]],
   [#link("tel:+1-469-347-2884", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(469) 347-2884]]],
-  [#link("https://squirrr.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[squirrr.github.io]]],
-  [#link("https://linkedin.com/in/Abdullah-A-Khaled", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[Abdullah-A-Khaled]]],
-  [#link("https://github.com/Squirrr", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[Squirrr]]],
-  [#link("https://youtube.com/@AKha1ed", icon: false, if-underline: false, if-color: false)[#connection-with-icon("youtube")[AKha1ed]]],
+  [#link("https://akhaled247.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[akhaled247.github.io]]],
+  [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
+  [#link("https://github.com/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[akhaled247]]],
+  [#link("https://youtube.com/@akhaled.247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("youtube")[akhaled.247]]],
 )
 
 
@@ -127,7 +127,7 @@
   main-column-second-row: [
     - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
 
-    - #link("https://squirrr.github.io/pltw-engineering/")[PLTW Engineering EPortfolio]
+    - #link("https://akhaled247.github.io/pltw-engineering/")[PLTW Engineering EPortfolio]
 
   ],
 )
@@ -190,7 +190,7 @@
 
     - Created self-paced learning website and summer training programs: #link("https://mantik.netlify.app/ftc/ftc-curriculum-intro")[Mantik's FTC Curriculum]
 
-    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made #link("https://squirrr.github.io/first/oarobotics/")[OARobotics] curriculum
+    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made #link("https://akhaled247.github.io/first/oarobotics/")[OARobotics] curriculum
 
   ],
 )

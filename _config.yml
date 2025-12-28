@@ -22,9 +22,9 @@ title_separator          : "|"
 subtitle                 : "Engineering Portfolio"
 name                     : "Abdullah Khaled"
 description              : "My engineering portfolio, where I host my scholastic and extracurricular projects."
-url                      : "https://squirrr.github.io"
+url                      : "https://akhaled247.github.io"
 baseurl                  : # the   subpath of your site, e.g. "/blog"
-repository               : squirrr/squirrr.github.io
+repository               : akhaled247/akhaled247.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/favicons/web-app-manifest-512x512-bg-remove.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : #"Abdullah Khaled"
@@ -124,14 +124,14 @@ author:
       url: "mailto:abdullahkhaled0224@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/squirrr"
+      url: "https://github.com/akhaled247"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/squirrr
+      url: https://github.com/akhaled247
     - label: "LinkedIn"
       icon: "fa-brands fa-square-linkedin"
       url: https://www.linkedin.com/in/abdullah-a-khaled/
