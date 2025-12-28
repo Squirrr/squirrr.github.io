@@ -1,0 +1,11 @@
+{% assign pdf_path = include.path %}
+{% assign pdf_width = include.width | default: "700px" %}
+{% assign pdf_height = include.height | default: "700px" %}
+
+<div class="resume-pdf">
+    <object data="{{ pdf_path }}" type="application/pdf" width="{{ pdf_width }}" height="{{ pdf_height }}">
+    <embed src="{{ pdf_path }}">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="{{ pdf_path }}">Download PDF</a>.</p>
+    </embed>
+    </object>
+    </div>

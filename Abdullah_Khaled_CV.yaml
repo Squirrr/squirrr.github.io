@@ -152,15 +152,15 @@ design:
   #   right_margin: 0.7in
   #   show_footer: false
   #   show_top_note: true
-  # colors:
-  #   body: rgb(0, 0, 0)
-  #   name: rgb(0, 0, 0)
-  #   headline: rgb(0, 0, 0)
-  #   connections: rgb(0, 0, 0)
-  #   section_titles: rgb(0, 0, 0)
-  #   links: rgb(0, 0, 0)
-  #   footer: rgb(128, 128, 128)
-  #   top_note: rgb(128, 128, 128)
+  colors:
+    body: rgb(0, 0, 0),
+    name: rgb(0, 79, 144),
+    headline: rgb(0, 79, 144),
+    connections: rgb(0, 79, 144),
+    section-titles: rgb(0, 79, 144),
+    links: rgb(0, 79, 144),
+    footer: rgb(128, 128, 128),
+    top-note: rgb(128, 128, 128)
   # typography:
   #   line_spacing: 0.6em
   #   alignment: justified

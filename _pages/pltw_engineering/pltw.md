@@ -12,6 +12,20 @@ permalink: /pltw-engineering/
 
 #Feature Row of Engineering Projects
 feature_row_projects:
+  - image_path: /assets/images/PLTW/homepage/mvnand.png
+    title: "Majority Vote"
+    excerpt: "I implemented a majority vote using boolean algebra and logic circuits using multiple circiut design methods."
+    url: "/pltw-engineering/majority-vote/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
+  - image_path: /assets/images/PLTW/homepage/rng.png
+    title: "Random Number Generator"
+    excerpt: "I created a working number generator using capacitors, timers, and combinational logic design."
+    url: "/pltw-engineering/rng/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
   - image_path: /assets/images/PLTW/homepage/elevatorIso.png
     title: "Machine Control Project"
     excerpt: "I worked with my team to CAD and program a full elevator prototype using feedback control systems."
