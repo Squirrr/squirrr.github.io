@@ -17,5 +17,5 @@ In this season of FIRST® Tech Challenge (FTC), I worked with my team to create 
 <br>
 {% include video id="2td2-swUyMg" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}
 This season also came with many individual and team accolades. We reached the furthest we ever have in an event at the McKinney Qualifier, defeating the world-record holding alliance in the world at the time! I was also chosen as a Dean's List Semifinalist, with more updates to come.
-{$ include videotextbreak $}
+{% include videotextbreak %}
 [GitHub Code](https://github.com/itkan-of-icf/ftc-26357-2526-v2){: .btn .btn--purple .btn--large}

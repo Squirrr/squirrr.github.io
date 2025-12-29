@@ -30,7 +30,7 @@ part-layouts:
 </div>
 <br><br><br>
 OARobotics is an open-source project created by myself that hopes to expand FIRST® to less privileged groups. Originally, it started as an avenue for refugee students to learn about robotics in an intuitive and simple manner, but has since expanded to include tutorials without words for not only those who might not speak English, but also those with disabilities who may struggle to build and code the base FIRST® LEGO® League robots.
-{$ include videotextbreak $}
+{% include videotextbreak %}
 {% include gallery id="part-layouts" caption="The parts for OARobotics robots. From left to right, they are: base kit, stabilizer wheel(s), SPIKE™ Essential extension." %}
 
 {% include video id="playlist?list=PLXZmTommNXyVer6lBpR4-sAbxGuqo_ve8" provider="youtube" width="427px" height="240px" float="left" margin="10px"%}
