@@ -12,10 +12,10 @@ permalink: /personal/
 
 #Feature Row of Engineering Projects
 feature_row_projects:
-  - image_path: /assets/images/first/oarobotics/Bots_Top.png
+  - image_path: /assets/images/personal/oarobotics/Bots_Top.png
     title: "OARobotics Curriculum"
     excerpt: "I designed a robotics curriculum for students with limited English proficiency."
-    url: "/first/oarobotics/"
+    url: "/personal/oarobotics/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 

@@ -63,7 +63,7 @@ Sept 2024 – present
 
 - Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)
 
-- Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://akhaled247.github.io/first/oarobotics/) curriculum
+- Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://akhaled247.github.io/personal/oarobotics/) curriculum
 
 
 

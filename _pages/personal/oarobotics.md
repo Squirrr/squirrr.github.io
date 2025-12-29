@@ -11,22 +11,22 @@ title: OARobotics
 permalink: /personal/oarobotics/
 
 part-layouts:
-  - url: /assets/images/first/oarobotics/Base_Kit_Parts.png
-    image_path: /assets/images/first/oarobotics/Base_Kit_Parts.png
+  - url: /assets/images/personal/oarobotics/Base_Kit_Parts.png
+    image_path: /assets/images/personal/oarobotics/Base_Kit_Parts.png
     alt: "Base Kit Parts"
     title: "Base Kit Parts"
-  - url: /assets/images/first/oarobotics/Wheel_Stabilizer_Parts.png
-    image_path: /assets/images/first/oarobotics/Wheel_Stabilizer_Parts.png
+  - url: /assets/images/personal/oarobotics/Wheel_Stabilizer_Parts.png
+    image_path: /assets/images/personal/oarobotics/Wheel_Stabilizer_Parts.png
     alt: "Wheel(s) Stabilizer parts"
     title: "Wheel(s) Stabilizer parts. Left side is castor wheel, right side is two wheels"
-  - url: /assets/images/first/oarobotics/Essential_Extension_Parts.png
-    image_path: /assets/images/first/oarobotics/Essential_Extension_Parts.png
+  - url: /assets/images/personal/oarobotics/Essential_Extension_Parts.png
+    image_path: /assets/images/personal/oarobotics/Essential_Extension_Parts.png
     alt: "SPIKE™ Essential Extension Parts"
     title: "SPIKE™ Essential Extension Parts"
 ---
 
 <div style="width:25vw; float: left; margin: 10px">
-{% include figure popup=true image_path="/assets/images/first/oarobotics/Bots_Top.png" alt="Picture of OARobotics Base Bots" caption="Pictures of OARobotics Base Bots." %}
+{% include figure popup=true image_path="/assets/images/personal/oarobotics/Bots_Top.png" alt="Picture of OARobotics Base Bots" caption="Pictures of OARobotics Base Bots." %}
 </div>
 <br><br><br>
 OARobotics is an open-source project created by myself that hopes to expand FIRST® to less privileged groups. Originally, it started as an avenue for refugee students to learn about robotics in an intuitive and simple manner, but has since expanded to include tutorials without words for not only those who might not speak English, but also those with disabilities who may struggle to build and code the base FIRST® LEGO® League robots.

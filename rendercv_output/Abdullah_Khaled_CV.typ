@@ -190,7 +190,7 @@
 
     - Created self-paced learning website and summer training programs: #link("https://mantik.netlify.app/ftc/ftc-curriculum-intro")[Mantik's FTC Curriculum]
 
-    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made #link("https://akhaled247.github.io/first/oarobotics/")[OARobotics] curriculum
+    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made #link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics] curriculum
 
   ],
 )
