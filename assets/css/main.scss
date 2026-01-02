@@ -5,6 +5,22 @@ search: false
 
 @charset "utf-8";
 
+/* ==========================================================================
+   Custom skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #eeeeee !default;
+$text-color: #222831 !default;
+$muted-text-color: #393e46 !default;
+$primary-color: #004e8f !default;
+$border-color: mix(#fff, #393e46, 75%) !default;
+$footer-background-color: $primary-color !default;
+$link-color: #004e8f !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -90,20 +106,63 @@ search: false
 }
 
 /* ==========================================================================
-   Custom skin
+   Feature Filter Styles
    ========================================================================== */
 
-/* Colors */
-$background-color: #eeeeee !default;
-$text-color: #222831 !default;
-$muted-text-color: #393e46 !default;
-$primary-color: #004f90 !default;
-$border-color: mix(#fff, #393e46, 75%) !default;
-$footer-background-color: $primary-color !default;
-$link-color: #004f90 !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+.feature-filter-wrapper {
+  margin-bottom: 2rem;
+}
+
+.feature-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.btn--filter {
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.btn--filter:hover {
+  background-color: #e0e0e0;
+  border-color: #999;
+}
+
+.btn--filter.active {
+  background-color: #004e8f;
+  color: #fff;
+  border-color: #004e8f;
+}
+
+.btn--filter.active:hover {
+  background-color: #003d70;
+  border-color: #003d70;
+}
+
+.feature-filter-item {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.feature-filter-item.feature-filter-hidden {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
 
 .page__footer {
   color: #fff !important; // override
@@ -124,3 +183,56 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
     background-color: mix(#000, $background-color, 20%) !important;
   }
 }
+
+.page__footer {
+  color: #fff !important; // override
+  
+  // Force dark/white icons in footer
+  .page__footer-follow .social-icons {
+    .fas,
+    .fab,
+    .far,
+    .fal,
+    .fa-brands,
+    .fa-solid,
+    .fa-regular,
+    .fa-light,
+    i[class*="fa-"] {
+      color: #fff !important;
+    }
+    
+    // Also target SVG icons if Font Awesome uses SVG mode
+    .svg-inline--fa {
+      color: #fff !important;
+    }
+  }
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* ==========================================================================
+   Fix Home/Archive Layout Width
+   ========================================================================== */
+
+   .layout--home .archive,
+   .layout--archive .archive {
+     @include breakpoint($large) {
+       width: 100% !important;
+       padding-inline-end: 0 !important;
+     }
+   
+     @include breakpoint($x-large) {
+       width: 100% !important;
+       padding-inline-end: 0 !important;
+     }
+   }
+   
+   /* Or if you want it to match the single page width exactly */
+   .layout--home #main,
+   .layout--archive #main {
+     @include breakpoint($x-large) {
+       max-width: $max-width;
+     }
+   }

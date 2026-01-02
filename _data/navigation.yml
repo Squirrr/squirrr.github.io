@@ -2,14 +2,14 @@
 main:
   - title: "Home"
     url: /
-  - title: "Featured"
-    url: /featured/
-  - title: "PLTW"
-    url: /pltw-engineering/
-  - title: "FIRST®"
-    url: /first/
-  - title: "Personal"
-    url: /personal/
+  - title: "Projects"
+    url: /projects/
+  # - title: "PLTW"
+  #   url: /pltw-engineering/
+  # - title: "FIRST®"
+  #   url: /first/
+  # - title: "Personal"
+  #   url: /personal/
   - title: "Resume"
     url: /resume/
   - title: "About"

@@ -5,30 +5,39 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: home
       author_profile: true
 title: Engineering Portfolio
 permalink: /
 
 feature_row_projects:
-  - image_path: /assets/images/PLTW/homepage/mvnand.png
-    title: "Majority Vote"
-    excerpt: "I implemented a majority vote using boolean algebra and logic circuits using multiple circiut design methods."
-    url: "/pltw-engineering/majority-vote/"
+  - image_path: /assets/images/personal/oralsight.png
+    title: "OralSight"
+    excerpt: "For the Conrad Challenge, my team and I designed a low-cost oral disease detector that used federated learning to create HIPAA-compliant data sets."
+    url: "/personal/oralsight/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/personal/mantik.png
-    title: "Mantik"
-    excerpt: "I created an extensive written and video curricula for training students in Java, FTC, and FRC programming."
-    url: "/personal/mantik"
+    tags:
+      - Competition
+      - Electrical
+
+  - image_path: /assets/images/personal/solvefortomorrow.png
+    title: "WatchFall"
+    excerpt: "For the Samsung Solve for Tomorrow competition, my team and I designed a small, low-cost camera device to detect seniors falling and alert caretakers audially."
+    url: "/personal/watchfall/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+    tags:
+      - Competition
   - image_path: /assets/images/first/9128_2025.jpg
     title: "REEFSCAPE - 2025 FRC"
     excerpt: "The 2025 FRC Season, during which I competed with team 9128 ITKAN Robotics."
     url: "/first/reefscape/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+    tags:
+      - Robotics
+      - Competition
 ---
 <section class="hero">
   <div class="overlay"></div>
@@ -44,7 +53,7 @@ feature_row_projects:
 ---
 <h2>Quick Links</h2>
 {: .text-left}
-[Browse Projects](/featured/){: .btn .btn--warning .btn--x-large}
+[Browse Projects](/projects/){: .btn .btn--warning .btn--x-large}
 [Download Resume](/resume/){: .btn .btn--primary .btn--x-large}
 [GitHub](https://github.com/akhaled247){: .btn .btn--purple .btn--x-large}
 {: .text-center}

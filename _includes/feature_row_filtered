@@ -1,0 +1,147 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+{% comment %} Collect all unique tags from projects {% endcomment %}
+{% assign all_tags_array = "" | split: "," %}
+{% for f in feature_row %}
+  {% if f.tags %}
+    {% for tag in f.tags %}
+      {% assign tag_exists = false %}
+      {% for existing_tag in all_tags_array %}
+        {% if existing_tag == tag %}
+          {% assign tag_exists = true %}
+        {% endif %}
+      {% endfor %}
+      {% unless tag_exists %}
+        {% assign all_tags_array = all_tags_array | push: tag %}
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Sort tags alphabetically {% endcomment %}
+{% assign all_tags = all_tags_array | sort %}
+
+<div class="feature-filter-wrapper">
+  {% comment %} Filter buttons {% endcomment %}
+  <div class="feature-filter-buttons">
+    <button class="btn btn--filter active" data-filter="all">All</button>
+    {% for tag in all_tags %}
+      <button class="btn btn--filter" data-filter="{{ tag | slugify }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
+  {% comment %} Feature items {% endcomment %}
+  <div class="feature__wrapper" id="feature-filter-container">
+    {% for f in feature_row %}
+      {% comment %} Create a space-separated list of tag slugs for filtering {% endcomment %}
+      {% assign tag_slugs = "" | split: "," %}
+      {% if f.tags %}
+        {% for tag in f.tags %}
+          {% assign tag_slug = tag | slugify %}
+          {% assign tag_slugs = tag_slugs | push: tag_slug %}
+        {% endfor %}
+      {% endif %}
+      {% assign tag_string = tag_slugs | join: " " %}
+      
+      <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %} feature-filter-item" 
+           data-tags="{{ tag_string }}">
+        <div class="archive__item">
+          {% if f.image_path %}
+            <div class="archive__item-teaser">
+              <img src="{{ f.image_path | relative_url }}"
+                   alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+              {% if f.image_caption %}
+                <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <div class="archive__item-body">
+            {% if f.title %}
+              <h2 class="archive__item-title">{{ f.title }}</h2>
+            {% endif %}
+
+            {% if f.excerpt %}
+              <div class="archive__item-excerpt">
+                {{ f.excerpt | markdownify }}
+              </div>
+            {% endif %}
+
+            {% if f.url %}
+              <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+(function() {
+  // Wait for DOM to be ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilter);
+  } else {
+    initFilter();
+  }
+
+  function initFilter() {
+    const filterButtons = document.querySelectorAll('.btn--filter');
+    const filterItems = document.querySelectorAll('.feature-filter-item');
+    const featureWrapper = document.getElementById('feature-filter-container');
+
+    if (filterButtons.length === 0 || filterItems.length === 0 || !featureWrapper) {
+      return;
+    }
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const filterValue = this.getAttribute('data-filter');
+
+        // Update active button
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+
+        // Collect visible and hidden items
+        let visibleItems = [];
+        let hiddenItems = [];
+        
+        filterItems.forEach(item => {
+          let shouldShow = false;
+          if (filterValue === 'all') {
+            shouldShow = true;
+          } else {
+            const itemTags = item.getAttribute('data-tags');
+            if (itemTags && itemTags.split(' ').includes(filterValue)) {
+              shouldShow = true;
+            }
+          }
+          
+          if (shouldShow) {
+            item.classList.remove('feature-filter-hidden');
+            visibleItems.push(item);
+          } else {
+            item.classList.add('feature-filter-hidden');
+            hiddenItems.push(item);
+          }
+        });
+
+        // Reorder DOM: visible items first, then hidden items
+        // This ensures nth-child selectors work correctly for visible items
+        visibleItems.forEach(item => {
+          featureWrapper.appendChild(item);
+        });
+        hiddenItems.forEach(item => {
+          featureWrapper.appendChild(item);
+        });
+      });
+    });
+  }
+})();
+</script>
+

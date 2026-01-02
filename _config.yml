@@ -130,13 +130,13 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: https://github.com/akhaled247
     - label: "LinkedIn"
       icon: "fa-brands fa-square-linkedin"
       url: https://www.linkedin.com/in/abdullah-a-khaled/
     - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
+      icon: "fa-brands fa-youtube"
       url: https://www.youtube.com/@AKha1ed
   since: "2025"
 
