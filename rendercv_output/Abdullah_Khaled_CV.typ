@@ -146,7 +146,7 @@
   main-column-second-row: [
     - Led team to playoffs at Texas State Championship (89 teams) using AprilTag pose estimation, and swerve drive odometry achieving sub 2-inch precision
 
-    - Trained 4 students in Java robotics programming; created Java training website: #link("https://mantik.netlify.app/frc/frc-intro")[Mantik's FRC Curriculum]
+    - Trained 4 students in Java robotics programming; created Java training website: #link("https://mantik.netlify.app/frc")[Mantik's FRC Curriculum]
 
     - Developed custom publish-subscribe motor logging system for real-time diagnostics analyses
 
@@ -188,7 +188,7 @@
   main-column-second-row: [
     - Trained 5+ students in Java, command-based programming, motor control, PID tuning, servo control, sensor integration, and dead-reckoning wheel odometry
 
-    - Created self-paced learning website and summer training programs: #link("https://mantik.netlify.app/ftc/ftc-curriculum-intro")[Mantik's FTC Curriculum]
+    - Created self-paced learning website and summer training programs: #link("https://mantik.netlify.app/ftc")[Mantik's FTC Curriculum]
 
     - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made #link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics] curriculum
 

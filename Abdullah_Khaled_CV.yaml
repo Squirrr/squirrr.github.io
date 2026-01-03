@@ -47,7 +47,7 @@ cv:
         location: Frisco, TX
         highlights:
           - Led team to playoffs at Texas State Championship (89 teams) using AprilTag pose estimation, and swerve drive odometry achieving sub 2-inch precision
-          - "Trained 4 students in Java robotics programming; created Java training website: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc/frc-intro)"
+          - "Trained 4 students in Java robotics programming; created Java training website: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc)"
           - Developed custom publish-subscribe motor logging system for real-time diagnostics analyses
           - Implemented finite state machine with Dijkstra's Algorithm
           - Used FRC-specific Java mechanism simulation towards telescoping arm optimization
@@ -69,7 +69,7 @@ cv:
         location: Frisco, TX
         highlights:
           - Trained 5+ students in Java, command-based programming, motor control, PID tuning, servo control, sensor integration, and dead-reckoning wheel odometry
-          - "Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc/ftc-curriculum-intro)"
+          - "Created self-paced learning website and summer training programs: [Mantik's FTC Curriculum](https://mantik.netlify.app/ftc)"
           - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made [OARobotics](https://akhaled247.github.io/personal/oarobotics/) curriculum
       - company: Gideon Math and Reading Center
         position: Math and Reading Instructor
