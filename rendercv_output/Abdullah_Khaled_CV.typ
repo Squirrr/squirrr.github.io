@@ -140,7 +140,7 @@
 
   ],
   [
-    Sept 2023 – present
+    June 2024 – present
 
   ],
   main-column-second-row: [
@@ -201,7 +201,7 @@
 
   ],
   [
-    Sept 2024 – present
+    June 2024 – present
 
   ],
   main-column-second-row: [
@@ -222,7 +222,7 @@
 
   ],
   [
-    Jan 2024 – present
+    Sept 2025 – present
 
   ],
   main-column-second-row: [
@@ -239,7 +239,7 @@
 
   ],
   [
-    June 2024 – present
+    Oct 2025 – present
 
   ],
   main-column-second-row: [
@@ -294,7 +294,7 @@
 
   ],
   [
-    Sept 2023 – present
+    Sept 2024 – present
 
   ],
   main-column-second-row: [

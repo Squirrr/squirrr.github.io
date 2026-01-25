@@ -42,7 +42,7 @@ cv:
       - company: ITKAN Robotics (FRC 9128)
         position: Programming Lead, Chief Technical Advisor
         date:
-        start_date: 2023-09
+        start_date: 2024-06
         end_date: present
         location: Frisco, TX
         highlights:
@@ -74,7 +74,7 @@ cv:
       - company: Gideon Math and Reading Center
         position: Math and Reading Instructor
         date:
-        start_date: 2024-09
+        start_date: 2024-06
         end_date: present
         location: Frisco, TX
         highlights:
@@ -84,7 +84,7 @@ cv:
     projects:
       - name: "Senior Fall Monitor Device"
         date:
-        start_date: 2024-01
+        start_date: 2025-09
         end_date: present
         location: Samsung Solve for Tomorrow
         highlights:
@@ -92,7 +92,7 @@ cv:
           - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
       - name: Oral Disease Detector
         date:
-        start_date: 2024-06
+        start_date: 2025-10
         end_date: present
         location: The Conrad Challenge
         highlights:
@@ -121,7 +121,7 @@ cv:
       - company: Ma'ruf Project Taleem
         position: Lead Math and English Instructor
         date:
-        start_date: 2023-09
+        start_date: 2024-09
         end_date: present
         location: Dallas, TX
         highlights:

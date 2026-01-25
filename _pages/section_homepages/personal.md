@@ -19,10 +19,10 @@ feature_row_projects:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
-  - image_path: /assets/images/personal/oralsight.png
-    title: "OralSight"
+  - image_path: /assets/images/personal/oralvision/main.png
+    title: "OralVision"
     excerpt: "For the Conrad Challenge, my team and I designed a low-cost oral disease detector that used federated learning to create HIPAA-compliant data sets."
-    url: "/personal/oralsight/"
+    url: "/personal/oralvision/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
