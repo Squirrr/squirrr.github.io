@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Abdullah Khaled",
   footer: context { [#emph[Abdullah Khaled -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  top-note: [ #emph[Last updated in Jan 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -76,9 +76,9 @@
   entries-highlights-space-between-items: 0.12cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 24,
+    year: 2026,
+    month: 1,
+    day: 26,
   ),
 )
 
@@ -311,9 +311,9 @@
 
 - (2025) FRC 9128: Event Winner (FiT Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)
 
-- (2025-26) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
+- (2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
 
-- (2025-26) FTC 28931: Dean's List Semifinalist (FiT-North D-League Tournament, 19 teams)
+- (2026) FTC 28931: Dean's List Semifinalist (FiT-North Regional Championship, 46 teams)
 
 == Skills
 
