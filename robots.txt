@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /robots.txt
+---
+# Robots.txt for {{ site.url }}
+# https://www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: {{ site.url }}/sitemap.xml
+
+# Disallow non-content paths
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /page/
+
+# Allow important assets for rendering
+Allow: /assets/images/
+Allow: /assets/favicons/

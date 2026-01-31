@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Random Number Generator
+title: "Random Number Generator | PLTW Engineering"
+description: "Digital dice circuit using 555 timers, D flip-flops, and combinational logic for random 1-6 generation, designed in NI Multisim for PLTW Engineering."
 permalink: /pltw-engineering/rng/
+author_profile: false
 ---
 {% include video id="VFdojpUZpH0" provider="youtube" width="100vw" height="38vw" float="left" margin="10px"%}
 After learning about sequential and combinational logic, we were challenged to make a random number generator (RNG) that “rolls” a die and outputs a number from 1-6 based on the roll. This project combined our knowledge of capacitors, 555 timers, D flip-flops worked, boolean logic, and simple electrical components to complete our final project.

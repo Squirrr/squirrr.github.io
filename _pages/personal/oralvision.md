@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: OralVision - Conrad Challenge
+title: "OralVision - Conrad Challenge Entry"
+description: "OralVision: A low-cost oral disease detection device using federated learning and ESP32 for HIPAA-compliant cancer screening, achieving 87% accuracy in the Conrad Challenge."
 permalink: /personal/oralvision/
+author_profile: false
 media:
   - url: /assets/images/personal/oralvision/caseprototypes.png
     image_path: /assets/images/personal/oralvision/caseprototypes.png

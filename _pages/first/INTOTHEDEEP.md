@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: 2024-2025 FTC
+title: "INTO THE DEEP 2024-2025 FTC Season | Team 21330"
+description: "2024-25 FTC INTO THE DEEP season: custom pathing algorithm, Java modular programming, and League Tournament with Team 21330 ITKAN of Tomorrow."
 permalink: /first/into-the-deep/
+author_profile: false
 ---
 
 {% include video id="72TyK_xXU0Q" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}

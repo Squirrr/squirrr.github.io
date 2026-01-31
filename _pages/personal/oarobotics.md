@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: OARobotics
+title: "OARobotics - Accessible Robotics Education"
+description: "OARobotics: Open-source FIRST LEGO League curriculum designed for refugee students and learners with disabilities, featuring wordless video tutorials."
 permalink: /personal/oarobotics/
+author_profile: false
 
 part-layouts:
   - url: /assets/images/personal/oarobotics/Base_Kit_Parts.png

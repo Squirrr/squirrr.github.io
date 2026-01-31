@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Photo Lab
+title: "Photo Lab - Retro Collage Creator"
+description: "Photo Lab: A minimalist web app for creating retro photo collages with 12 custom filters, available on desktop and mobile."
 permalink: /personal/photo-lab/
+author_profile: false
 ---
 <div style="width:25vw; float: left; margin: 10px">
 {% include figure popup=true image_path="assets/images/personal/photolabexample.jpg" alt="Picture of OARobotics Base Bots" caption="Example of generated collage using PhotoLab." %}

@@ -20,8 +20,14 @@
 {% assign video_src = video_src | strip %}
 
 {% unless video_src == "" %}
+  <!-- Video container with explicit dimensions to prevent CLS -->
   <div class="responsive-video-container-custom"
-       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-margin: {{ video_margin }}; height:20px">
-    <iframe src="{{ video_src }}" allowfullscreen loading="lazy"></iframe>
+       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-margin: {{ video_margin }}; width: {{ video_width }}; height: {{ video_height }}; aspect-ratio: 16/9; background: #000;">
+    <iframe src="{{ video_src }}" 
+            width="{{ video_width | remove: 'px' | remove: 'vw' }}{% if video_width contains 'vw' %}vw{% endif %}"
+            height="{{ video_height | remove: 'px' | remove: 'vw' }}{% if video_height contains 'vw' %}vw{% endif %}"
+            allowfullscreen 
+            loading="lazy"
+            title="{% if video_provider == 'youtube' %}YouTube video player{% elsif video_provider == 'vimeo' %}Vimeo video player{% else %}Video player{% endif %}"></iframe>
   </div>
 {% endunless %}

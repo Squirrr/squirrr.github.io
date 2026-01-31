@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Compound Machine
+title: "Compound Machine Project | PLTW Engineering"
+description: "Compound machine design project lifting 1000g weight using five simple machines, CAD modeling in Onshape, and systems engineering for PLTW coursework."
 permalink: /pltw-engineering/compound-machine/
+author_profile: false
 ---
 
 {% include video id="rm9d0f760_0" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}

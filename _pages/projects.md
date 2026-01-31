@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Projects
+title: "Engineering Projects"
+description: "Browse Abdullah Khaled's engineering projects including FRC robotics, competition entries, PLTW coursework, and personal software projects."
 permalink: /projects/
+author_profile: false
 
 feature_row_projects:
 

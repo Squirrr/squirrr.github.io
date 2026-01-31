@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: 2025 FRC
+title: "REEFSCAPE 2025 FRC Season | Team 9128 ITKAN Robotics"
+description: "2025 FRC REEFSCAPE season highlights: swerve drive programming, Limelight vision alignment, autonomous routines, and Texas State Championship with Team 9128 ITKAN Robotics."
 permalink: /first/reefscape/
+author_profile: false
 ---
 In this season of the FIRST® Robotics Competition (FRC), our team was tasked with precisely aligning to a designated scoring location (the "reef") and automatically depositing the object with a ±2" tolerance. To start, I programmed the swerve drive using kinematics to enable us to maneuver quickly yet accurately across the field. After programming the drivetrain, I tested multiple different methods of alignment to the reef, utilizing vision powered by Limelight cameras and interfacing with the API to create a consistent and quick solution. We also utilizes our vision measurements for global pose estimation, allowing our robot to calculate its position on the field with a precision of ±2cm, allowing for impressive demonstrations and consistent autonomous routines.
 {% include video id="L1V84d7_JFg" provider="youtube" width="15.1875vw" height="27vw"  float="left" margin="10px"%}

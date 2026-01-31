@@ -86,10 +86,20 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
+  /* Reserve space before image load to reduce CLS (Core Web Vitals) */
+  aspect-ratio: 16 / 9;
 
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
+}
+
+/* Feature row: square images */
+.feature__wrapper .archive__item-teaser {
+  aspect-ratio: 1 / 1;
 }
 
 .archive__item-caption {

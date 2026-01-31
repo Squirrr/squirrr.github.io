@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: 2025-2026 FTC
+title: "DECODE 2025-2026 FTC Season | Teams 26357 & 28391"
+description: "2025-26 FTC DECODE season highlights: Limelight vision, Bezier pathing, Kalman filter localization, and Dean's List Semifinalist recognition with ITKAN of ICF."
 permalink: /first/decode/
+author_profile: false
 ---
 
 {% include video id="OliAf7QarBU" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}

@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Majority Vote
+title: "Majority Vote Circuit Design | PLTW Engineering"
+description: "Majority vote circuit project implementing boolean algebra, Karnaugh mapping, and logic gate design with presidential override capability using NI Multisim."
 permalink: /pltw-engineering/majority-vote/
+author_profile: false
 ---
 {% include video id="Vcxdboo5JB0" provider="youtube" width="45vw" height="27vw" float="left" margin="0px"%}
 {% include video id="hPqy3gH22aA" provider="youtube" width="45vw" height="27vw" float="right" margin="0px"%}

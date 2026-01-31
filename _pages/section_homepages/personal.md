@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Personal Projects
+title: "Personal Projects"
+description: "Abdullah Khaled's personal engineering projects including OralVision medical device, WatchFall fall detection system, Photo Lab web app, and robotics education resources."
 permalink: /personal/
+author_profile: false
 
 #Feature Row of Engineering Projects
 feature_row_projects:

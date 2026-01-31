@@ -234,6 +234,9 @@ body {
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+  /* Reserve space before load to reduce CLS (Core Web Vitals) */
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .page__hero-caption {

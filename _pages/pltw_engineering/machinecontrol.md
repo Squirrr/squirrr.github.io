@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Machine Control Project
+title: "Machine Control Project | PLTW Engineering"
+description: "VEX V5 elevator project using proportional control systems, CAD design in Onshape, and telemetry programming for PLTW Engineering coursework."
 permalink: /pltw-engineering/machine-control/
+author_profile: false
 ---
 
 {% include video id="IykJOCmuGt0" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}

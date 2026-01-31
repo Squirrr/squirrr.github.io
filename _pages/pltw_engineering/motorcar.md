@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Motor Car
+title: "Motor Car Project | PLTW Engineering"
+description: "Motorized toy car project teaching mechanical mechanisms through hands-on design, construction, and testing for PLTW Engineering coursework."
 permalink: /pltw-engineering/motor-car/
+author_profile: false
 ---
 
 {% include video id="cKfBEh8HjYo" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}

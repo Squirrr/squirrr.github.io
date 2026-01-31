@@ -1,14 +1,9 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: home
-      author_profile: true
-title: Engineering Portfolio
+layout: home
+title: "Engineering Portfolio | Abdullah Khaled"
+description: "Explore Abdullah Khaled's engineering portfolio featuring robotics projects, FRC/FTC competition work, and software engineering from Frisco, TX."
 permalink: /
+author_profile: false
 
 feature_row_projects:
   - image_path: /assets/images/personal/oralvision/main.png

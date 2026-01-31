@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: About
+title: "About Abdullah Khaled"
+description: "Learn about Abdullah Khaled, a high school junior from Frisco, TX passionate about robotics, software engineering, and community service through FIRST Robotics and Ma'ruf Dallas."
 permalink: /about/
+author_profile: false
 ---
 <img src="/assets/images/about/LinkedInPFP.jpg" style="width: 15vw; height: 15vw; float:left; padding: 10px; border-radius: 20px">
 Welcome to my engineering portfolio! My name is Abdullah Khaled, and I am currently a junior at Wakeland High School in Frisco, TX. I enjoy both the hardware and software side of engineering and am always searching for ways to dive deeper into the field of engineering while helping others along the way. I am especially interested in robotics and how best to integrate the knowledge I have—from CAD to vision to sensor fusion—to create low-cost, reliable autonomous systems for use in disaster-stricken areas.

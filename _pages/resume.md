@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: Resume
+title: "Resume | Abdullah Khaled"
+description: "Download Abdullah Khaled's resume showcasing robotics experience, software engineering skills, and academic achievements from Wakeland High School."
 permalink: /resume/
+author_profile: false
 ---
 
 {% include pdf path="/rendercv_output/Abdullah_Khaled_CV.pdf"%}

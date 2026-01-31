@@ -1,11 +1,13 @@
+<!-- Main site JavaScript (deferred for better INP) -->
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
-    <script src="{{ script | relative_url }}"></script>
+    <script src="{{ script | relative_url }}" defer></script>
   {% endfor %}
 {% else %}
-  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.min.js' | relative_url }}" defer></script>
 {% endif %}
 
+<!-- Search functionality (loaded only when needed) -->
 {% if site.search == true or page.layout == "search" %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
   {%- case search_provider -%}
@@ -18,11 +20,12 @@
   {%- endcase -%}
 {% endif %}
 
+<!-- Analytics (loaded asynchronously) -->
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}
-    <script src="{{ script | relative_url }}"></script>
+    <script src="{{ script | relative_url }}" defer></script>
   {% endfor %}
 {% endif %}

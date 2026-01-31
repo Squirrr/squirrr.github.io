@@ -1,14 +1,8 @@
 ---
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-title: PLTW Engineering
+title: "PLTW Engineering Coursework"
+description: "Project Lead The Way engineering projects including circuit design, CAD modeling in Onshape and Fusion360, VEX robotics, and control systems programming."
 permalink: /pltw-engineering/
+author_profile: false
 
 #Feature Row of Engineering Projects
 feature_row_projects:

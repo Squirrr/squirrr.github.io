@@ -9,9 +9,12 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+#
+# For FASTER local development: uncomment 'theme' and comment out 'remote_theme'
+# For GitHub Pages deployment: use 'remote_theme' (current setting)
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+# theme                  : "minimal-mistakes-jekyll"  # Faster local dev (requires gem)
+remote_theme           : "mmistakes/minimal-mistakes"  # Required for GitHub Pages
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,11 +24,11 @@ title                    : "Abdullah Khaled"
 title_separator          : "|"
 subtitle                 : "Engineering Portfolio"
 name                     : "Abdullah Khaled"
-description              : "My engineering portfolio, where I host my scholastic and extracurricular projects."
+description              : "Engineering portfolio of Abdullah Khaled, showcasing robotics projects, FRC/FTC competitions, and software engineering work from a high school student in Frisco, TX."
 url                      : "https://akhaled247.github.io"
-baseurl                  : # the   subpath of your site, e.g. "/blog"
+baseurl                  : "" # empty string for root domain deployment
 repository               : akhaled247/akhaled247.github.io
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/first/9128_2025.jpg" # fallback teaser for posts without images
 logo                     : "/assets/favicons/web-app-manifest-512x512-bg-remove.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : #"Abdullah Khaled"
 breadcrumbs              : true # true, false (default)
@@ -67,7 +70,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # Disabled - no blog posts on this portfolio site
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
@@ -90,18 +93,21 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : # Optional: your Twitter handle without @
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
+og_image                 : "/assets/favicons/web-app-manifest-512x512-bg-remove.png" # Default Open Graph image for social sharing
+# For specifying social profiles (structured data for Google)
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Abdullah Khaled"
+  links:
+    - "https://github.com/akhaled247"
+    - "https://www.linkedin.com/in/akhaled247/"
+    - "https://www.youtube.com/@akhaled247"
 
 # Analytics
 analytics:
@@ -187,6 +193,11 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Liquid Processing (performance optimization)
+liquid:
+  error_mode: warn
+  strict_filters: true
+
 
 # Markdown Processing
 kramdown:
@@ -208,7 +219,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # Central Time (Texas) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
@@ -299,8 +310,17 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
+  # _pages
+  # - scope:
+  #     path: "_pages"
+  #     type: pages
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     sitemap: false
+  # All pages fallback
