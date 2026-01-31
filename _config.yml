@@ -139,7 +139,7 @@ footer:
       icon: "fa-brands fa-github"
       url: https://github.com/akhaled247
     - label: "LinkedIn"
-      icon: "fa-brands fa-square-linkedin"
+      icon: "fa-brands fa-linkedin"
       url: https://www.linkedin.com/in/akhaled247/
     - label: "YouTube"
       icon: "fa-brands fa-youtube"

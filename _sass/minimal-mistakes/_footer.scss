@@ -14,17 +14,13 @@
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: $footer-background-color;
+  margin-inline: auto;
+  max-width: 100%;
+  padding: 0.5em 2em;
+  box-sizing: border-box;
 
-  footer {
-    @include clearfix;
-    margin-inline: auto;
-    margin-top: 2em;
-    max-width: 100%;
-    padding: 0 1em 2em;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+  @include breakpoint($x-large) {
+    max-width: $x-large;
   }
 
   a {
@@ -38,6 +34,7 @@
 
   .fas,
   .fab,
+  .fa-brands,
   .far,
   .fal {
     color: $muted-text-color;

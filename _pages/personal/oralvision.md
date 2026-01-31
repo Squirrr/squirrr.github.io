@@ -35,7 +35,7 @@ OralVision is designed for use in low-resource settings. Power is regulated thro
 Captured images are transmitted wirelessly to the machine-learning interface using Wi-Fi, while SPI communication enables fast, low-latency image transfer within the device. Images are processed by a federated learning model, which generates diagnostic results displayed on a Raspberry Pi–based human-machine interface. Each device contributes to improving the global model by updating neural parameters locally, allowing users to periodically download improved versions without sharing sensitive patient data.
 
 In testing, OralVision significantly outperformed existing market solutions. Our model achieved an overall accuracy of 87.15%, with a ROC-AUC score of 0.9417 and an F1 score of 0.8655. By comparison, VELscope, a widely used competing technology, has demonstrated accuracy rates near 53% in experimental trials.
-{% include figure popup=true image_path="/assets/images/personal/oralvision/architecture.png" alt="Architecture Overview of OralVision" caption="Architecture Overview of OralVision." %}
+{% include figure popup=true image_path="/assets/images/personal/oralvision/architecture.png" alt="Architecture Overview of OralVision" caption="Architecture Overview of OralVision." width="100%" %}
 {% include videotextbreak %}
 [Website](https://akhaled247.github.io/oral-vision/){: .btn .btn--info .btn--large}
 [Conrad Challenge Video](https://www.youtube.com/watch?v=MfCu4gWxRUY){: .btn .btn--danger .btn--large}
