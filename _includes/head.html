@@ -8,10 +8,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- DNS prefetch for external resources (improves LCP) -->
+<!-- DNS prefetch / preconnect for external resources (improves LCP, PageSpeed) -->
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 
 <!-- Preload critical CSS (improves LCP) -->
 <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">

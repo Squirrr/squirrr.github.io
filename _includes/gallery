@@ -23,16 +23,12 @@
         {% if img.title %}title="{{ img.title | escape_once }}"{% endif %}>
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt | escape_once }}{% elsif img.title %}{{ img.title | escape_once }}{% else %}Gallery image{% endif %}"
-               width="800"
-               height="800"
                loading="lazy"
                decoding="async">
       </a>
     {% else %}
       <img src="{{ img.image_path | relative_url }}"
            alt="{% if img.alt %}{{ img.alt | escape_once }}{% elsif img.title %}{{ img.title | escape_once }}{% else %}Gallery image{% endif %}"
-           width="800"
-           height="800"
            loading="lazy"
            decoding="async">
     {% endif %}

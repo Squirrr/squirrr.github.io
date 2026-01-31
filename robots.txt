@@ -11,13 +11,8 @@ Allow: /
 # Sitemap location
 Sitemap: {{ site.url }}/sitemap.xml
 
-# Disallow non-content paths
-Disallow: /assets/js/
-Disallow: /assets/css/
+# Allow CSS/JS so Googlebot can render the page and detect rich results (Search Console Rich Results Test)
+# Disallow archive/pagination paths only
 Disallow: /tags/
 Disallow: /categories/
 Disallow: /page/
-
-# Allow important assets for rendering
-Allow: /assets/images/
-Allow: /assets/favicons/

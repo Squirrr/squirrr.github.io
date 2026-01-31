@@ -48,9 +48,9 @@ feature_row_projects:
 ---
 <h2>Quick Links</h2>
 {: .text-left}
-[Browse Projects](/projects/){: .btn .btn--warning .btn--x-large}
-[Download Resume](/resume/){: .btn .btn--primary .btn--x-large}
-[GitHub](https://github.com/akhaled247){: .btn .btn--purple .btn--x-large}
+[Browse all projects](/projects/){: .btn .btn--warning .btn--x-large}
+[Download my resume](/resume/){: .btn .btn--primary .btn--x-large}
+[View my GitHub profile](https://github.com/akhaled247){: .btn .btn--purple .btn--x-large}
 {: .text-center}
 ---
 <h2>Background</h2>
